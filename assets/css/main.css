@@ -5,6 +5,13 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+* {
+	cursor: url("../../mouse/normal.cur"), auto;
+}
+
+
+
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1975,6 +1982,9 @@ input, select, textarea {
 				button:hover:active:after,
 				.button:hover:active:after {
 					opacity: 0.1;
+				}
+				a, .button {
+					cursor: url("../../mouse/link.cur"), auto;
 				}
 
 /* Features */
