@@ -1,8 +1,6 @@
 @import url(fontawesome-all.min.css);
 
-* {
-	cursor: url("../../mouse/normal.cur"), auto;
-}
+
 
 
 
@@ -3910,4 +3908,8 @@ input, select, textarea {
 				background-attachment: scroll;
 			}
 
+		}
+
+		* {
+			cursor: url("../../mouse/normal.cur"), auto;
 		}
